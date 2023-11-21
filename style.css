@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.heading {    
+    font-size: 45px;
+}
+
+
+#divi {
+    height: 150px;
+    padding-top: 50px;
+    text-align: center;
+    width: 400px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.child {
+    padding: 7px 20px;
+    margin: 5px 5px;
+    font-size: 16px;
+}
